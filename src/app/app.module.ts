@@ -12,6 +12,8 @@ import { LefttopmentComponent } from './header/lefttopment/lefttopment.component
 import { ProductListComponent } from './container/product-list/product-list.component';
 import { ProductComponent } from './container/product-list/product/product.component';
 import { FilterComponent } from './container/product-list/filter/filter.component';
+import { ProductDetailsComponent } from './container/product-details/product-details.component';
+import { LatestBrandComponent } from './container/latest-brand/latest-brand.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { FilterComponent } from './container/product-list/filter/filter.componen
     ProductListComponent,
     ProductComponent,
     FilterComponent,
+    ProductDetailsComponent,
+    LatestBrandComponent,
   ],
   imports: [
     BrowserModule,
